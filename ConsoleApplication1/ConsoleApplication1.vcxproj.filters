@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\zip">
+      <UniqueIdentifier>{d97b6c77-866f-4012-b46d-7aeed9f4b581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\socket">
+      <UniqueIdentifier>{6dcc871f-9840-4df3-9ba7-ae230518439f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\file">
+      <UniqueIdentifier>{11d114fd-50a8-4551-b038-db0996f1c32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\socket">
+      <UniqueIdentifier>{fd13a4bc-c9c1-432b-9487-91310dfa9961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\file">
+      <UniqueIdentifier>{199a1cf0-264d-42fb-9f63-b711a3419d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zip">
+      <UniqueIdentifier>{4a12690f-7df6-4fe4-9036-931c697c26a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main">
+      <UniqueIdentifier>{c5089129-01ee-454b-853a-4c89cbb0cc35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="fileOperation.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpSocket.cpp">
+      <Filter>源文件\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFunction.cpp">
+      <Filter>源文件\file</Filter>
+    </ClCompile>
+    <ClCompile Include="zip.cpp">
+      <Filter>源文件\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="ZipFunction.cpp">
+      <Filter>源文件\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clipp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zip.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipDefine.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipFunction.h">
+      <Filter>头文件\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpSocket.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="fileOperation.h">
+      <Filter>头文件\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFunction.h">
+      <Filter>头文件\file</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConsoleApplication1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>
